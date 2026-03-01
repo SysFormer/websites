@@ -6,6 +6,14 @@ import en from '../constants/en';
 const CONTENT_MAP: Record<Locale, SiteContent> = { pl, en };
 
 function detectLocale(): Locale {
+  // URL param override for dev: ?lang=en or ?lang=pl
+  const params = new URLSearchParams(window.location.search);
+  const paramLang = params.get('lang') as Locale | null;
+  if (paramLang === 'pl' || paramLang === 'en') {
+    localStorage.setItem('locale', paramLang);
+    return paramLang;
+  }
+
   const stored = localStorage.getItem('locale') as Locale | null;
   if (stored === 'pl' || stored === 'en') return stored;
 

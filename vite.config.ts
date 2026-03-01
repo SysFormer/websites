@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
-import fs from 'fs'
 
 const site = process.env.VITE_SITE || 'pl'
 
@@ -72,8 +71,12 @@ export default defineConfig({
     },
     {
       name: 'cname-output',
-      closeBundle() {
-        fs.writeFileSync(path.resolve(__dirname, 'dist/CNAME'), cfg.cname)
+      generateBundle() {
+        this.emitFile({
+          type: 'asset',
+          fileName: 'CNAME',
+          source: cfg.cname,
+        })
       },
     },
   ],
