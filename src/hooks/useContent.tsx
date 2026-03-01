@@ -1,11 +1,11 @@
-import * as PL from '../constants/pl';
-
-type ContentType = typeof PL;
+import { useLanguage } from '../i18n/context';
+import type { SiteContent } from '../i18n/types';
 
 interface ContentResult {
-    content: ContentType;
+    content: SiteContent;
 }
 
 export const useContent = (): ContentResult => {
-    return { content: PL };
+    const { content } = useLanguage();
+    return { content };
 };
