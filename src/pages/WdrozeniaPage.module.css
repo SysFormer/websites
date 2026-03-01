@@ -1,0 +1,351 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg, #0a0a12 0%, #0d1117 50%, #0a0a12 100%);
+}
+
+.heroBackground::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(ellipse 800px 600px at 10% 30%, rgba(73, 196, 60, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 600px 600px at 90% 70%, rgba(59, 130, 246, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 500px 400px at 50% 20%, rgba(139, 92, 246, 0.04) 0%, transparent 60%),
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5 L55 30 L30 55 L5 30 Z' fill='none' stroke='%2349c43c' stroke-width='0.3' stroke-opacity='0.08'/%3E%3C/svg%3E");
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100px 100px, 100px 100px, 120px 120px;
+}
+
+.heroBackground::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(
+      135deg,
+      transparent,
+      transparent 200px,
+      rgba(73, 196, 60, 0.02) 200px,
+      rgba(73, 196, 60, 0.02) 201px
+    ),
+    radial-gradient(circle 1px at center, rgba(255, 255, 255, 0.3) 0%, transparent 100%),
+    radial-gradient(ellipse 300px 300px at 70% 40%, rgba(73, 196, 60, 0.03) 0%, transparent 70%);
+  background-size: 100% 100%, 80px 80px, 100% 100%;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(ellipse 150% 100% at 50% 50%, transparent 30%, rgba(0, 0, 0, 0.5) 100%),
+    radial-gradient(ellipse 400px 400px at 85% 15%, rgba(73, 196, 60, 0.04) 0%, transparent 70%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.heroInner {
+  position: relative;
+  z-index: 2;
+  width: auto;
+  padding: 8rem 0 6rem;
+  max-width: 1000px;
+  animation: fadeInUp 0.9s ease-out;
+  margin-left: clamp(12rem, 20vw, 20rem);
+  margin-right: auto;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.serviceLabel {
+  font-size: 0.9rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.title {
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-weight: 300;
+  margin-top: 10.5rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  max-width: 900px;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  max-width: 640px;
+  margin: 0 0 3.5rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.heroActions {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.primaryAction,
+.secondaryAction {
+  padding: 1.3rem 3.2rem;
+  border-radius: 0;
+  font-size: 0.95rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  color: white;
+  z-index: 1;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.primaryAction::before,
+.secondaryAction::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--accent-green);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: -1;
+}
+
+.primaryAction {
+  background: rgba(73, 196, 60, 0.1);
+  border-color: var(--accent-green);
+}
+
+.primaryAction:hover {
+  color: var(--text-dark);
+  border-color: var(--accent-green);
+  box-shadow: 0 0 30px rgba(73, 196, 60, 0.4), 0 0 60px rgba(73, 196, 60, 0.2);
+  transform: translateY(-2px);
+}
+
+.primaryAction:hover::before {
+  transform: scaleX(1);
+}
+
+.secondaryAction {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.secondaryAction:hover {
+  color: var(--text-dark);
+  border-color: var(--accent-green);
+  box-shadow: 0 0 30px rgba(73, 196, 60, 0.4), 0 0 60px rgba(73, 196, 60, 0.2);
+  transform: translateY(-2px);
+}
+
+.secondaryAction:hover::before {
+  transform: scaleX(1);
+}
+
+/* CTA Section */
+.cta {
+  padding: 6rem 0;
+  background: rgba(10, 10, 18, 0.7);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.cta p {
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .heroInner {
+    padding: 6rem 0 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    align-items: flex-start;
+    padding: 5rem 1.75rem 3rem;
+  }
+
+  .heroInner {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 4rem 0 3rem;
+  }
+
+  .title {
+    font-size: 2.8rem;
+    margin-top: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .heroActions,
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .primaryAction,
+  .secondaryAction {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 4rem 1.25rem 2.5rem;
+  }
+
+  .heroInner {
+    padding: 3.5rem 0 2.5rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Light mode overrides */
+:global([data-theme='light']) .heroBackground {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #f8fafc 100%);
+}
+
+:global([data-theme='light']) .heroBackground::before {
+  background-image:
+    radial-gradient(ellipse 800px 600px at 10% 30%, rgba(73, 196, 60, 0.12) 0%, transparent 60%),
+    radial-gradient(ellipse 600px 600px at 90% 70%, rgba(59, 130, 246, 0.1) 0%, transparent 60%),
+    radial-gradient(ellipse 500px 400px at 50% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
+    linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5 L55 30 L30 55 L5 30 Z' fill='none' stroke='%2349c43c' stroke-width='0.5' stroke-opacity='0.15'/%3E%3C/svg%3E");
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100px 100px, 100px 100px, 120px 120px;
+}
+
+:global([data-theme='light']) .heroBackground::after {
+  background-image:
+    repeating-linear-gradient(
+      135deg,
+      transparent,
+      transparent 200px,
+      rgba(73, 196, 60, 0.05) 200px,
+      rgba(73, 196, 60, 0.05) 201px
+    ),
+    radial-gradient(circle 1px at center, rgba(0, 0, 0, 0.1) 0%, transparent 100%),
+    radial-gradient(ellipse 300px 300px at 70% 40%, rgba(73, 196, 60, 0.06) 0%, transparent 70%);
+  background-size: 100% 100%, 80px 80px, 100% 100%;
+}
+
+:global([data-theme='light']) .hero {
+  color: #0f172a;
+}
+
+:global([data-theme='light']) .heroOverlay {
+  background:
+    radial-gradient(ellipse 150% 100% at 50% 50%, transparent 40%, rgba(255, 255, 255, 0.4) 100%),
+    radial-gradient(ellipse 400px 400px at 85% 15%, rgba(73, 196, 60, 0.06) 0%, transparent 70%);
+}
+
+:global([data-theme='light']) .title {
+  color: #0f172a;
+}
+
+:global([data-theme='light']) .subtitle {
+  color: #475569;
+}
+
+:global([data-theme='light']) .serviceLabel {
+  color: #64748b;
+}
+
+:global([data-theme='light']) .primaryAction {
+  background: rgba(73, 196, 60, 0.15);
+  border-color: #49c43c;
+  color: #0f172a;
+}
+
+:global([data-theme='light']) .secondaryAction {
+  border-color: #334155;
+  color: #0f172a;
+}
+
+:global([data-theme='light']) .cta {
+  background: rgba(241, 245, 249, 0.7);
+  backdrop-filter: blur(8px);
+  border-top-color: rgba(0, 0, 0, 0.05);
+}
+
+:global([data-theme='light']) .cta h2 {
+  color: #0f172a;
+}
+
+:global([data-theme='light']) .cta p {
+  color: #475569;
+}

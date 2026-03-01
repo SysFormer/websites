@@ -1,0 +1,30 @@
+.toggle {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 0.6rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: var(--text-dark);
+}
+
+.toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: var(--text-gray);
+}
+
+.toggle svg {
+  display: block;
+}
+
+:global([data-theme='dark']) .toggle {
+  color: #ffffff;
+}
+
+:global([data-theme='dark']) .toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
