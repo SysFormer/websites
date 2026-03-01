@@ -1,9 +1,9 @@
 import React, { createContext, useContext, useState } from 'react';
 import type { Locale, SiteContent } from './types';
 import pl from '../constants/pl';
+import en from '../constants/en';
 
-const CONTENT_MAP: Record<Locale, SiteContent> = { pl, en: pl };
-// ↑ EN temporarily points to PL until en.ts is created in Phase 3
+const CONTENT_MAP: Record<Locale, SiteContent> = { pl, en };
 
 function detectLocale(): Locale {
   const stored = localStorage.getItem('locale') as Locale | null;
