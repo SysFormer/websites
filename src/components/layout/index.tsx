@@ -42,10 +42,11 @@ export const Navbar: React.FC<NavbarProps> = ({ className = "" }) => {
 
   const isActive = (path: string) => location.pathname.includes(path);
 
-  const scrollToSection = (sectionId: string) => {
+  const scrollToSection = (sectionId: string, targetPath?: string) => {
     handleMobileClose();
-    if (location.pathname !== '/') {
-      navigate('/', { state: { scrollTo: sectionId } });
+    const dest = targetPath || '/';
+    if (location.pathname !== dest) {
+      navigate(dest, { state: { scrollTo: sectionId } });
     } else {
       const element = document.getElementById(sectionId);
       if (element) {
@@ -108,7 +109,7 @@ export const Navbar: React.FC<NavbarProps> = ({ className = "" }) => {
                 {content.NAV.IMPLEMENTATIONS}
               </Link>
               <a
-                onClick={() => scrollToSection("team")}
+                onClick={() => scrollToSection("team", `/${content.NAV.URLS.IMPLEMENTATIONS}`)}
                 className={styles.navLink}
               >
                 {content.NAV.TEAM}
