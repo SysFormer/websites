@@ -92,36 +92,31 @@ const en: SiteContent = {
 
   PROCESS_STEPS: [
     {
-      image:
-        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-audit.png`,
       title: "Audit and Analysis",
       description:
         "We diagnose current systems, identify processes for automation, and prioritize based on best ROI.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-migration.png`,
       title: "Data Migration",
       description:
         "Data transfer from existing systems to a unified platform - creating a single source of truth for your company data.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-automation.png`,
       title: "Process Automation",
       description:
         "Implementation of automation according to priorities – starting with actions bringing the most value added.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-improvement.png`,
       title: "Iterative Improvement",
       description:
         "Continuous system refinement based on feedback until it reaches full functionality meeting company needs.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-knowledge.png`,
       title: "Knowledge Transfer",
       description:
         "We train the team, explain operating mechanisms – you gain autonomy in system development.",

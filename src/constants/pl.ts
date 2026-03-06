@@ -92,36 +92,31 @@ const pl: SiteContent = {
 
   PROCESS_STEPS: [
     {
-      image:
-        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-audit.png`,
       title: "Audyt i Analiza",
       description:
         "Diagnozujemy obecne systemy, identyfikujemy procesy do automatyzacji i ustalamy priorytety według najlepszego zwrotu z inwestycji.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-migration.png`,
       title: "Migracja Danych",
       description:
         "Transfer danych z istniejących systemów zunifikowanej platformy - tworzymy źródło prawdy dla danych w Twojej firmie.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-automation.png`,
       title: "Automatyzacja Procesów",
       description:
         "Implementacja automatyzacji według priorytetów – zaczynamy od działań przynoszących największą wartość dodaną.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-improvement.png`,
       title: "Iteracyjne Doskonalenie",
       description:
         "Ciągłe udoskonalanie systemu na podstawie feedbacku, aż osiągnie pełną funkcjonalność odpowiadającą potrzebom firmy.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
+      image: `${import.meta.env.BASE_URL}image/banner-knowledge.png`,
       title: "Transfer Wiedzy",
       description:
         "Szkolimy zespół, tłumaczymy mechanizmy działania – zyskujecie autonomię w rozwoju systemu.",
