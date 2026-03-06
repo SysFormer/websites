@@ -108,12 +108,14 @@ const pl: SiteContent = {
       title: "Automatyzacja Procesów",
       description:
         "Implementacja automatyzacji według priorytetów – zaczynamy od działań przynoszących największą wartość dodaną.",
+      imageContain: true,
     },
     {
       image: `${import.meta.env.BASE_URL}image/banner-improvement.png`,
       title: "Iteracyjne Doskonalenie",
       description:
         "Ciągłe udoskonalanie systemu na podstawie feedbacku, aż osiągnie pełną funkcjonalność odpowiadającą potrzebom firmy.",
+      imageContain: true,
     },
     {
       image: `${import.meta.env.BASE_URL}image/banner-knowledge.png`,

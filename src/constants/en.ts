@@ -108,12 +108,14 @@ const en: SiteContent = {
       title: "Process Automation",
       description:
         "Implementation of automation according to priorities – starting with actions bringing the most value added.",
+      imageContain: true,
     },
     {
       image: `${import.meta.env.BASE_URL}image/banner-improvement.png`,
       title: "Iterative Improvement",
       description:
         "Continuous system refinement based on feedback until it reaches full functionality meeting company needs.",
+      imageContain: true,
     },
     {
       image: `${import.meta.env.BASE_URL}image/banner-knowledge.png`,

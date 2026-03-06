@@ -7,6 +7,7 @@ interface ProcessStep {
   title: string
   description: string
   image: string
+  imageContain?: boolean
 }
 
 interface AutomationArea {
@@ -95,11 +96,11 @@ const ProcessStepCard: React.FC<ProcessStepCardProps> = ({
         ...delayStyle,
       }}
     >
-      <div className={styles.stepImageWrapper}>
+      <div className={`${styles.stepImageWrapper} ${step.imageContain ? styles.stepImageWrapperContain : ''}`}>
         <img
           src={step.image}
           alt={step.title}
-          className={styles.stepImage}
+          className={`${styles.stepImage} ${step.imageContain ? styles.stepImageContain : ''}`}
           loading="lazy"
         />
       </div>
