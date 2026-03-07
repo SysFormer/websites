@@ -259,7 +259,7 @@ const en: SiteContent = {
 
   HOME_PAGE: {
     HERO: {
-      LABEL: "sysflow.one",
+      LABEL: "sysformer.com",
       TITLE: "Your team loses hours on repetitive tasks.",
       TITLE_HIGHLIGHT: "We automate that in weeks, not months.",
       SUBTITLE: "We help companies of 10-3000 people automate documentation, customer service, and back-office processes. Scalable approach — from a quick MVP in a few weeks to comprehensive enterprise implementations.",
@@ -294,7 +294,7 @@ const en: SiteContent = {
       ],
     },
     WHY_US: {
-      TITLE: "Why sysflow.one?",
+      TITLE: "Why sysformer.com?",
       CARDS: [
         {
           icon: "⚡",

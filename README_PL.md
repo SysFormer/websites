@@ -180,7 +180,7 @@ Możliwe rozszerzenia:
 
 ## 📄 Licencja
 
-Projekt stworzony na podstawie strony [SysFlow.one](https://sysflow.one/)
+Projekt stworzony na podstawie strony [SysFormer.com](https://sysformer.com/)
 
 ## 🤝 Contribucja
 

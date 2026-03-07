@@ -19,7 +19,7 @@ function detectLocale(): Locale {
 
   const host = window.location.hostname;
   if (host.includes('potega.ai')) return 'pl';
-  if (host.includes('sysflow.one')) return 'en';
+  if (host.includes('sysformer.com')) return 'en';
 
   return 'pl';
 }
