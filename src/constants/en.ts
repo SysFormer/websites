@@ -2,10 +2,10 @@ import type { SiteContent } from '../i18n/types';
 
 const en: SiteContent = {
   CONTACT: {
-    email: "contact@sysflow.one",
+    email: "contact@sysformer.com",
     phone: "+48 692 311 723",
     phoneLink: "tel:+48692311723",
-    emailLink: "mailto:contact@sysflow.one",
+    emailLink: "mailto:contact@sysformer.com",
     address: "Warsaw, Poland",
     linkedin: "https://www.linkedin.com/company/sysflow-one",
   },

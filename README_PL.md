@@ -175,7 +175,7 @@ Możliwe rozszerzenia:
 
 ## 📞 Kontakt
 
-- **Email:** contact@sysflow.one
+- **Email:** contact@sysformer.com
 - **Tel:** +48 692 311 723
 
 ## 📄 Licencja
