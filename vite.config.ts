@@ -17,10 +17,10 @@ const siteConfig = {
   },
   en: {
     lang: 'en',
-    title: 'SysFlow — AI Automation for Business | Fast, without corporate overhead',
+    title: 'Sysformer — AI Automation for Business | Fast, without corporate overhead',
     description: 'We automate business processes with AI for companies of 10-3000 people. From audit to implementation in 6 weeks. Free consultation.',
     ogUrl: 'https://sysformer.com',
-    ogTitle: 'SysFlow — AI Automation for Business',
+    ogTitle: 'Sysformer — AI Automation for Business',
     ogDescription: 'Your team loses hours on repetitive tasks. We automate that in weeks, not months.',
     gaId: 'G-3RWZCTSZ5Z',
     cname: 'sysformer.com',

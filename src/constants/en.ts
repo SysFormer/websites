@@ -243,7 +243,7 @@ const en: SiteContent = {
 
   TESTIMONIALS: [
     {
-      content: "I highly recommend working with SysFlow. Work with the team proceeds in a very good, partnership atmosphere, while maintaining a high level of professionalism. Major value lies in their approach focused on real organizational needs, focusing on organizing and simplifying processes rather than imposing a single 'ready-made' solution. Thanks to implemented automations and AI-based solutions, we managed to improve many key operational, financial, and business areas at Cookie3.",
+      content: "I highly recommend working with Sysformer. Work with the team proceeds in a very good, partnership atmosphere, while maintaining a high level of professionalism. Major value lies in their approach focused on real organizational needs, focusing on organizing and simplifying processes rather than imposing a single 'ready-made' solution. Thanks to implemented automations and AI-based solutions, we managed to improve many key operational, financial, and business areas at Cookie3.",
       author: "Wojtek Mrówka",
       role: "Chief Operating Officer",
       company: "Cookie3",
@@ -405,7 +405,7 @@ const en: SiteContent = {
 
   TRAINING_PAGE: {
     HERO: {
-      LABEL: "SysFlow / Training",
+      LABEL: "Sysformer / Training",
       TITLE: "Transform the Way Your Team Works",
       SUBTITLE: "Comprehensive training program: 8 meetings that will equip your team with practical knowledge and tools for immediate application.",
       BUTTON_PRIMARY: "Book a Meeting",
@@ -420,7 +420,7 @@ const en: SiteContent = {
 
   IMPLEMENTATIONS_PAGE: {
     HERO: {
-      LABEL: "SysFlow / FlowOne",
+      LABEL: "Sysformer / FlowOne",
       TITLE: "Automation and Data Management Systems",
       SUBTITLE: "Comprehensive implementation of automation systems. From audit, through data migration, to full automation of processes in your company.",
       BUTTON_PRIMARY: "Book a Meeting",
@@ -476,7 +476,7 @@ const en: SiteContent = {
   },
 
   TEAM_COMPONENT: {
-    TITLE: "SysFlow Team",
+    TITLE: "Sysformer Team",
     DESCRIPTION: "Behind the company's success are experienced specialists with a passion for optimization and automation.",
   },
 

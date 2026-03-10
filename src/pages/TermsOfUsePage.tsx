@@ -63,7 +63,7 @@ export const TermsOfUsePage: React.FC = () => {
               <h2>5. Własność intelektualna</h2>
               <p>
                 Wszelkie treści zamieszczone w serwisie, w tym teksty, grafiki, logotypy,
-                zdjęcia i materiały wideo, stanowią własność SysFlow lub są wykorzystywane
+                zdjęcia i materiały wideo, stanowią własność Sysformer lub są wykorzystywane
                 na podstawie odpowiednich licencji.
               </p>
               <p>

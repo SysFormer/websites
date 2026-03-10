@@ -69,10 +69,10 @@ export const Navbar: React.FC<NavbarProps> = ({ className = "" }) => {
           >
             <img
               src={`${import.meta.env.BASE_URL}image/logo.png`}
-              alt="SysFlow logo"
+              alt="Sysformer logo"
               className={styles.brandMark}
             />
-            <span className={styles.brandText}>SysFlow</span>
+            <span className={styles.brandText}>Sysformer</span>
           </Link>
 
           <button
@@ -143,10 +143,10 @@ export const Footer: React.FC = () => {
             <Link to="/" className={styles.footerLogo}>
               <img
                 src={`${import.meta.env.BASE_URL}image/logo.png`}
-                alt="SysFlow logo"
+                alt="Sysformer logo"
                 className={styles.logoImage}
               />
-              <span className={styles.logoText}>SysFlow</span>
+              <span className={styles.logoText}>Sysformer</span>
             </Link>
             <div className={styles.footerContact}>
               <a href={`mailto:${content.CONTACT.email}`} className={styles.footerLink}>
@@ -169,7 +169,7 @@ export const Footer: React.FC = () => {
               </div>
             )}
             <p className={styles.footerText}>
-              © {new Date().getFullYear()} SysFlow. {content.FOOTER.COPYRIGHT}
+              © {new Date().getFullYear()} Sysformer. {content.FOOTER.COPYRIGHT}
             </p>
           </div>
         </div>

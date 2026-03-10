@@ -243,7 +243,7 @@ const pl: SiteContent = {
 
   TESTIMONIALS: [
     {
-      content: 'Serdecznie polecam współpracę z SysFlow. Praca z zespołem przebiega w bardzo dobrej, partnerskiej atmosferze, przy jednoczesnym zachowaniu wysokiego poziomu profesjonalizmu. Dużą wartością jest ich podejście nastawione na realne potrzeby organizacji, skupienie na porządkowaniu i upraszczaniu procesów, a nie narzucaniu jednego „gotowego" rozwiązania. Dzięki wdrożonym automatyzacjom i rozwiązaniom opartym o AI udało nam się usprawnić wiele kluczowych obszarów operacyjnych, finansowych i biznesowych w Cookie3.',
+      content: 'Serdecznie polecam współpracę z Sysformer. Praca z zespołem przebiega w bardzo dobrej, partnerskiej atmosferze, przy jednoczesnym zachowaniu wysokiego poziomu profesjonalizmu. Dużą wartością jest ich podejście nastawione na realne potrzeby organizacji, skupienie na porządkowaniu i upraszczaniu procesów, a nie narzucaniu jednego „gotowego" rozwiązania. Dzięki wdrożonym automatyzacjom i rozwiązaniom opartym o AI udało nam się usprawnić wiele kluczowych obszarów operacyjnych, finansowych i biznesowych w Cookie3.',
       author: "Wojtek Mrówka",
       role: "Chief Operating Officer",
       company: "Cookie3",
@@ -405,7 +405,7 @@ const pl: SiteContent = {
 
   TRAINING_PAGE: {
     HERO: {
-      LABEL: "SysFlow / Szkolenie",
+      LABEL: "Sysformer / Szkolenie",
       TITLE: "Przekształć Sposób Pracy Swojego Zespołu",
       SUBTITLE: "Kompleksowy program szkoleniowy: 8 spotkań, które wyposażą Twój zespół w praktyczną wiedzę i narzędzia do natychmiastowego zastosowania.",
       BUTTON_PRIMARY: "Umów spotkanie",
@@ -420,7 +420,7 @@ const pl: SiteContent = {
 
   IMPLEMENTATIONS_PAGE: {
     HERO: {
-      LABEL: "SysFlow / FlowOne",
+      LABEL: "Sysformer / FlowOne",
       TITLE: "Automatyzacja i Systemy Zarządzania Danymi",
       SUBTITLE: "Kompleksowe wdrożenia systemów automatyzacji. Od audytu, przez migrację danych, po pełną automatyzację procesów w Twojej firmie.",
       BUTTON_PRIMARY: "Umów spotkanie",
@@ -476,7 +476,7 @@ const pl: SiteContent = {
   },
 
   TEAM_COMPONENT: {
-    TITLE: "Zespół SysFlow",
+    TITLE: "Zespół Sysformer",
     DESCRIPTION: "Za sukcesem firmy stoją doświadczeni specjaliści z pasją do optymalizacji i automatyzacji.",
   },
 
