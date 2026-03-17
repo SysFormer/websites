@@ -29,7 +29,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.DEPLOY_TOKEN }}
-          external_repository: SysFlow-IT/website-PL
+          external_repository: SysFormer/website-PL
           publish_branch: gh-pages
           publish_dir: ./dist
 
@@ -55,6 +55,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.DEPLOY_TOKEN }}
-          external_repository: SysFlow-IT/website-EN
+          external_repository: SysFormer/website-EN
           publish_branch: gh-pages
           publish_dir: ./dist
