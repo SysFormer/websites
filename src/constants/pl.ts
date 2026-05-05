@@ -256,7 +256,7 @@ const pl: SiteContent = {
       image: `${import.meta.env.BASE_URL}image/krystian-czarnecki-photo.jpeg`,
     },
     {
-      content: "Z Michałem znam się od wielu lat i wielokrotnie korzystałem z jego wiedzy w obszarze technologii. To on stoi za rozwiązaniami, które dziś optymalizują działanie moich biznesów — w tym agencji nieruchomości Domnamajorce.pl — i oszczędzają setki godzin pracy moim zespołom. Mnie osobiście pomaga zadbać o bezpieczeństwo i prywatność mojego sprzętu, na czym szczególnie mi zależy. Jego podejście wykracza daleko poza typowe „programista za godziny" — Michał myśli problemem klienta i dostarcza konkret, szybko, bez korpo-narzutu. W świecie, w którym większość „specjalistów od AI" sprzedaje hype, Sysformer sprzedaje wynik. Polecam każdemu, komu zależy na partnerze, a nie wykonawcy.",
+      content: `Z Michałem znam się od wielu lat i wielokrotnie korzystałem z jego wiedzy w obszarze technologii. To on stoi za rozwiązaniami, które dziś optymalizują działanie moich biznesów — w tym agencji nieruchomości Domnamajorce.pl — i oszczędzają setki godzin pracy moim zespołom. Mnie osobiście pomaga zadbać o bezpieczeństwo i prywatność mojego sprzętu, na czym szczególnie mi zależy. Jego podejście wykracza daleko poza typowe „programista za godziny" — Michał myśli problemem klienta i dostarcza konkret, szybko, bez korpo-narzutu. W świecie, w którym większość „specjalistów od AI" sprzedaje hype, Sysformer sprzedaje wynik. Polecam każdemu, komu zależy na partnerze, a nie wykonawcy.`,
       author: "Cezary Głuch",
       role: "Założyciel",
       company: "DomNaMajorce.pl / IndependentTrader.pl",
