@@ -255,6 +255,13 @@ const en: SiteContent = {
       role: "FP&A Analyst",
       image: `${import.meta.env.BASE_URL}image/krystian-czarnecki-photo.jpeg`,
     },
+    {
+      content: "I've known Michał for many years and have relied on his expertise in technology many times. He is behind the solutions that now optimize the operation of my businesses — including the real estate agency Domnamajorce.pl — saving hundreds of hours of work for my teams. He personally helps me take care of the security and privacy of my devices, which is something I care deeply about. His approach goes far beyond the typical 'developer by the hour' — Michał thinks about the client's problem and delivers results, fast, without corporate overhead. In a world where most 'AI specialists' sell hype, Sysformer sells outcomes. I recommend him to anyone who wants a partner, not just a contractor.",
+      author: "Cezary Głuch",
+      role: "Founder",
+      company: "DomNaMajorce.pl / IndependentTrader.pl",
+      image: `${import.meta.env.BASE_URL}image/cezary-gluch.webp`,
+    },
   ],
 
   HOME_PAGE: {
