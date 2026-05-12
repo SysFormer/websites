@@ -76,6 +76,15 @@
     text-transform: uppercase;
 }
 
+.role a {
+    color: #49c43c;
+    text-decoration: none;
+}
+
+.role a:hover {
+    text-decoration: underline;
+}
+
 .navigation {
     display: flex;
     align-items: center;
