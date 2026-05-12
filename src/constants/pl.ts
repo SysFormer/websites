@@ -243,6 +243,14 @@ const pl: SiteContent = {
 
   TESTIMONIALS: [
     {
+      content: `Z Michałem znam się od wielu lat i wielokrotnie korzystałem z jego wiedzy w obszarze technologii. To on stoi za rozwiązaniami, które dziś optymalizują działanie moich biznesów — w tym agencji nieruchomości Domnamajorce.pl — i oszczędzają setki godzin pracy moim zespołom. Mnie osobiście pomaga zadbać o bezpieczeństwo i prywatność mojego sprzętu, na czym szczególnie mi zależy. Jego podejście wykracza daleko poza typowe „programista za godziny" — Michał myśli problemem klienta i dostarcza konkret, szybko, bez korpo-narzutu. W świecie, w którym większość „specjalistów od AI" sprzedaje hype, Sysformer sprzedaje wynik. Polecam każdemu, komu zależy na partnerze, a nie wykonawcy.`,
+      author: "Cezary Głuch, Trader21",
+      role: "Przedsiębiorca, założyciel portalu",
+      company: "IndependentTrader.pl",
+      companyUrl: "https://independenttrader.pl/",
+      image: `${import.meta.env.BASE_URL}image/cezary-gluch.webp`,
+    },
+    {
       content: 'Serdecznie polecam współpracę z Sysformer. Praca z zespołem przebiega w bardzo dobrej, partnerskiej atmosferze, przy jednoczesnym zachowaniu wysokiego poziomu profesjonalizmu. Dużą wartością jest ich podejście nastawione na realne potrzeby organizacji, skupienie na porządkowaniu i upraszczaniu procesów, a nie narzucaniu jednego „gotowego" rozwiązania. Dzięki wdrożonym automatyzacjom i rozwiązaniom opartym o AI udało nam się usprawnić wiele kluczowych obszarów operacyjnych, finansowych i biznesowych w Cookie3.',
       author: "Wojtek Mrówka",
       role: "Chief Operating Officer",
@@ -254,13 +262,6 @@ const pl: SiteContent = {
       author: "Krystian Czarnecki",
       role: "FP&A Analyst",
       image: `${import.meta.env.BASE_URL}image/krystian-czarnecki-photo.jpeg`,
-    },
-    {
-      content: `Z Michałem znam się od wielu lat i wielokrotnie korzystałem z jego wiedzy w obszarze technologii. To on stoi za rozwiązaniami, które dziś optymalizują działanie moich biznesów — w tym agencji nieruchomości Domnamajorce.pl — i oszczędzają setki godzin pracy moim zespołom. Mnie osobiście pomaga zadbać o bezpieczeństwo i prywatność mojego sprzętu, na czym szczególnie mi zależy. Jego podejście wykracza daleko poza typowe „programista za godziny" — Michał myśli problemem klienta i dostarcza konkret, szybko, bez korpo-narzutu. W świecie, w którym większość „specjalistów od AI" sprzedaje hype, Sysformer sprzedaje wynik. Polecam każdemu, komu zależy na partnerze, a nie wykonawcy.`,
-      author: "Cezary Głuch",
-      role: "Założyciel",
-      company: "DomNaMajorce.pl / IndependentTrader.pl",
-      image: `${import.meta.env.BASE_URL}image/cezary-gluch.webp`,
     },
   ],
 

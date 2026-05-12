@@ -41,6 +41,7 @@ export interface Testimonial {
   author: string;
   role: string;
   company?: string;
+  companyUrl?: string;
   image: string;
 }
 

@@ -131,7 +131,11 @@ export const Testimonials: React.FC = () => {
                                 <div className={styles.author}>
                                     <span className={styles.name}>{testimonial.author}</span>
                                     <span className={styles.role}>
-                                        {testimonial.role}{testimonial.company ? `, ${testimonial.company}` : ''}
+                                        {testimonial.role}
+                                        {testimonial.company && testimonial.companyUrl && (
+                                            <> <a href={testimonial.companyUrl} target="_blank" rel="noopener noreferrer">{testimonial.company}</a></>
+                                        )}
+                                        {testimonial.company && !testimonial.companyUrl && `, ${testimonial.company}`}
                                     </span>
                                 </div>
                             </div>

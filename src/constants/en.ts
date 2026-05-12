@@ -243,6 +243,14 @@ const en: SiteContent = {
 
   TESTIMONIALS: [
     {
+      content: `I've known Michał for many years and have relied on his expertise in technology many times. He is behind the solutions that now optimize the operation of my businesses — including the real estate agency Domnamajorce.pl — saving hundreds of hours of work for my teams. He personally helps me take care of the security and privacy of my devices, which is something I care deeply about. His approach goes far beyond the typical 'developer by the hour' — Michał thinks about the client's problem and delivers results, fast, without corporate overhead. In a world where most 'AI specialists' sell hype, Sysformer sells outcomes. I recommend him to anyone who wants a partner, not just a contractor.`,
+      author: "Cezary Głuch, Trader21",
+      role: "Entrepreneur, founder of",
+      company: "IndependentTrader.pl",
+      companyUrl: "https://independenttrader.pl/",
+      image: `${import.meta.env.BASE_URL}image/cezary-gluch.webp`,
+    },
+    {
       content: "I highly recommend working with Sysformer. Work with the team proceeds in a very good, partnership atmosphere, while maintaining a high level of professionalism. Major value lies in their approach focused on real organizational needs, focusing on organizing and simplifying processes rather than imposing a single 'ready-made' solution. Thanks to implemented automations and AI-based solutions, we managed to improve many key operational, financial, and business areas at Cookie3.",
       author: "Wojtek Mrówka",
       role: "Chief Operating Officer",
@@ -254,13 +262,6 @@ const en: SiteContent = {
       author: "Krystian Czarnecki",
       role: "FP&A Analyst",
       image: `${import.meta.env.BASE_URL}image/krystian-czarnecki-photo.jpeg`,
-    },
-    {
-      content: `I've known Michał for many years and have relied on his expertise in technology many times. He is behind the solutions that now optimize the operation of my businesses — including the real estate agency Domnamajorce.pl — saving hundreds of hours of work for my teams. He personally helps me take care of the security and privacy of my devices, which is something I care deeply about. His approach goes far beyond the typical 'developer by the hour' — Michał thinks about the client's problem and delivers results, fast, without corporate overhead. In a world where most 'AI specialists' sell hype, Sysformer sells outcomes. I recommend him to anyone who wants a partner, not just a contractor.`,
-      author: "Cezary Głuch",
-      role: "Founder",
-      company: "DomNaMajorce.pl / IndependentTrader.pl",
-      image: `${import.meta.env.BASE_URL}image/cezary-gluch.webp`,
     },
   ],
 
