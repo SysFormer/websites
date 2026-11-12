@@ -23,6 +23,21 @@ const pl: SiteContent = {
       role: "Automation Manager",
       image: `${import.meta.env.BASE_URL}image/ribeiro.jpg`,
     },
+    {
+      name: "Mateusz Król",
+      role: "Automation Specialist",
+      image: `${import.meta.env.BASE_URL}image/mateusz.jpg`,
+    },
+    {
+      name: "Łukasz Corn",
+      role: "Senior DevSecOps",
+      image: `${import.meta.env.BASE_URL}image/lukasz.jpg`,
+    },
+    {
+      name: "Artur Spychalla",
+      role: "DevOps",
+      image: `${import.meta.env.BASE_URL}image/artur.jpg`,
+    },
   ],
 
   TRAINING_FEATURES: [
